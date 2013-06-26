@@ -1,0 +1,12 @@
+<div class="container">
+  <h1>crystalslist</h1>
+  <h3><%= @current_cat.name %></h3>
+
+  <ul>
+  <% @post.each do |post| %>  
+  <li><a href="/categories/<%= post.category_id %>/post/<%= post.id %>"/><%= post.title %></a></li>
+  <% end %>
+  </ul>
+
+  <div class="cover"></div>
+</div>

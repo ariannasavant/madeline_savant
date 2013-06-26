@@ -1,0 +1,13 @@
+<div class="container">
+  <h1>crystalslist</h1>
+  <h3>craig's sassy younger sis ;-)</h3>
+
+  <p>choose something fabulous:</p>
+  <ul>
+  <% @cat.each do |category| %>  
+  <li><a href="/categories/<%= category.id %>"><%= category.name %></a></li>
+  <% end %>
+  </ul>
+  <div class="cover">
+  </div>
+</div>
