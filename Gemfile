@@ -1,4 +1,6 @@
-source :rubygems
+source 'https://rubygems.org'
+
+gem 'rake'
 
 # PostgreSQL driver
 gem 'pg'
@@ -12,8 +14,6 @@ gem 'thin'
 
 gem 'activesupport'
 gem 'activerecord'
-
-gem 'rake'
 
 gem 'shotgun'
 
